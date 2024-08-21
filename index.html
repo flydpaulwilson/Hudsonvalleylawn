@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson Valley Lawn Mowing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            background: url('lawn-hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input, form select, form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .services, .testimonials {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .services h2, .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .services div, .testimonials div {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hudson Valley Lawn Mowing Services</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
+        <a href="#" style="background-color: #4CAF50; color: white; padding: 5px 10px; border-radius: 5px;">Get a Free Quote</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hudson Valley's Premier Lawn Mowing Services</h1>
+    <p>Reliable, Professional, and Tailored to Your Business Needs</p>
+    <div class="form-container">
+        <form>
+            <input type="text" name="business_name" placeholder="Business Name" required>
+            <input type="text" name="contact_person" placeholder="Contact Person" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <select name="service_needed" required>
+                <option value="" disabled selected>Select Service Needed</option>
+                <option value="Lawn Mowing">Lawn Mowing</option>
+                <option value="Landscaping">Landscaping</option>
+                <option value="Snow Removal">Snow Removal</option>
+                <option value="Irrigation">Irrigation System Management</option>
+            </select>
+            <textarea name="details" rows="4" placeholder="Additional Details"></textarea>
+            <button type="submit">Get My Free Quote</button>
+        </form>
+    </div>
+</div>
+
+<section class="services">
+    <h2>Our Services</h2>
+    <div>
+        <div>
+            <h3>Lawn Mowing</h3>
+            <p>We provide reliable lawn mowing services for commercial properties across Hudson Valley.</p>
+        </div>
+        <div>
+            <h3>Landscaping</h3>
+            <p>Expert landscaping to keep your property looking its best year-round.</p>
+        </div>
+        <div>
+            <h3>Snow Removal</h3>
+            <p>Winter services to keep your business safe and operational during snow season.</p>
+        </div>
+        <div>
+            <h3>Irrigation Systems</h3>
+            <p>Design and maintenance of irrigation systems to ensure a healthy landscape.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div>
+        <div>
+            <p>“The best lawn mowing service we've ever used. Reliable and professional.” – John D., XYZ Corp.</p>
+        </div>
+        <div>
+            <p>“Their team transformed our lawn into a showcase. Highly recommend them!” – Sarah M., ABC Retail</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Hudson Valley Lawn Mowing Services | © 2024</p>
+    <p>Business Address | Phone: (555) 123-4567 | Email: info@hvlawnservices.com</p>
+</footer>
+
+</body>
+</html>
